@@ -25,7 +25,7 @@ const Products = () => {
 
   return (
     <div>
-      <h1 className="bg-info text-white">Products</h1>
+      <h1 className="bg-info text-white">Products List</h1>
       {items.map((item) => (
         <div className="d-inline-flex align-items-stretch" key={item.id}>
           <Card
